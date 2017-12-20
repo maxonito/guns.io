@@ -3,6 +3,7 @@
 @text-color: #000;
 @light: #fff;
 @red-color: #d11f1f;
+@yellow-color: #ffca1e;
 
 
 // Базовые стили
@@ -20,6 +21,7 @@ a {
 .big-red {
 	font-weight: 700;
 	color: @red-color;
+	text-transform: uppercase;
 }
 
 
@@ -28,7 +30,7 @@ a {
 	position: sticky;
 	top: 0;
 	background-color: @light;
-	opacity: 0.9;
+	opacity: 0.95;
 	z-index: 100;
 
 	&-nav {
@@ -103,4 +105,77 @@ a {
 	}
 
 }
-	
+
+// Вы хотите чтобы ваш ребёнок
+.kid {
+	padding-bottom: 4rem;
+	background: #fff url(../img/kid/pattern2.png) repeat;
+	background-color: grey;
+	&-block {
+		text-align: center;
+	}
+	&-img {
+		max-width: 8rem;
+	}
+	&-title {
+		color: @yellow-color;
+		font-size: 4rem;
+		font-weight: 700;
+		text-align: center;
+		margin-top: 5rem;
+		margin-bottom: 7rem;
+	}
+
+	&-sign {
+		font-size: 1.8rem;
+		color: @light;
+		margin: 3rem 0;
+		padding: 0 4rem;
+	}
+}
+
+// Что такое AR GUN GAME?
+.argun-what {
+
+	&-fotorama {
+
+	}
+
+	&-fotorama-wrap {
+		float: right;
+		padding-top: 3rem;
+
+	}
+	&-text {
+		font-size: 2.6rem;
+		text-align: left;
+		padding: 0 3rem;
+	}
+
+	&-title {
+		font-size: 5rem;
+		text-align: center;
+		margin: 5rem 0;
+		font-weight: 400;
+	}
+}
+
+// AR GUN GAME ЭТО ВИРТУАЛЬНОЕ ОРУЖИЕ КОТОРОЕ ПОЗВОЛИТ....
+.argun-about {
+	margin-top: 8rem;
+
+	&-text {
+		margin-top: 5rem;
+		font-size: 1.8rem;
+	}
+
+	.block-img {
+		margin-top: 3rem;
+		text-align: center;
+	}
+
+	&-img {
+		display: inline-block;
+		max-width: 15rem;
+	}
+}

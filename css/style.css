@@ -9,13 +9,14 @@ a:hover {
 .big-red {
   font-weight: 700;
   color: #d11f1f;
+  text-transform: uppercase;
 }
 .top {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #ffffff;
-  opacity: 0.9;
+  opacity: 0.95;
   z-index: 100;
 }
 .top-nav {
@@ -79,4 +80,59 @@ a:hover {
   text-transform: uppercase;
   margin-bottom: 2rem;
   text-align: left;
+}
+.kid {
+  padding-bottom: 4rem;
+  background: #ffffff url(../img/kid/pattern2.png) repeat;
+  background-color: grey;
+}
+.kid-block {
+  text-align: center;
+}
+.kid-img {
+  max-width: 8rem;
+}
+.kid-title {
+  color: #ffca1e;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+}
+.kid-sign {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin: 3rem 0;
+  padding: 0 4rem;
+}
+.argun-what-fotorama-wrap {
+  float: right;
+  padding-top: 3rem;
+}
+.argun-what-text {
+  font-size: 2.6rem;
+  text-align: left;
+  padding: 0 3rem;
+}
+.argun-what-title {
+  font-size: 5rem;
+  text-align: center;
+  margin: 5rem 0;
+  font-weight: 400;
+}
+.argun-about {
+  margin-top: 8rem;
+}
+.argun-about-text {
+  margin-top: 5rem;
+  font-size: 1.8rem;
+}
+.argun-about .block-img {
+  margin-top: 3rem;
+  text-align: center;
+}
+.argun-about-img {
+  display: inline-block;
+  max-width: 15rem;
 }
