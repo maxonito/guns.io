@@ -5,7 +5,6 @@
 @red-color: #d11f1f;
 @yellow-color: #ffca1e;
 
-
 // Базовые стили
 body {
 	font-size: 10px;
@@ -14,6 +13,9 @@ body {
 
 a {
 	&:hover {
+		text-decoration: none;
+	}
+	&:link {
 		text-decoration: none;
 	}
 }
@@ -162,10 +164,11 @@ a {
 
 // AR GUN GAME ЭТО ВИРТУАЛЬНОЕ ОРУЖИЕ КОТОРОЕ ПОЗВОЛИТ....
 .argun-about {
+	margin-bottom: 5rem;
 	margin-top: 8rem;
 
 	&-text {
-		margin-top: 5rem;
+		
 		font-size: 1.8rem;
 	}
 
@@ -177,5 +180,126 @@ a {
 	&-img {
 		display: inline-block;
 		max-width: 15rem;
+	}
+}
+
+// Раскрывающийся текст
+#moreless {
+	font-size: 2rem;
+}
+
+#first4 {
+	margin-top: 6rem;
+}
+
+// Обзор виртуального оружия
+.overview {
+	background-color: #3c619e;
+	color: @light;
+	padding: 5rem 0;
+
+	&-item {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	&-img {
+		display: inline-block;
+		max-width: 7rem;
+	}
+
+	&-text {
+		text-align: center;
+		display: inline-block;
+		font-size: 1.4rem;
+	}
+
+	&-title {
+		font-size: 4rem;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 5rem;
+		
+	}
+
+	&-video {
+		display: table;
+	}
+
+	&-wrap {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	&-btn {
+		padding: 1rem 3rem;
+		background-color: @yellow-color;
+		font-size: 1.6rem;
+		color: @text-color;
+		text-transform: uppercase;
+		border: none;
+		border-radius: 50px;
+		font-weight: 700;
+
+		&-wrap {
+			margin-top: 3rem;
+			text-align: center;
+		}
+
+	}
+}
+
+// Приемущества
+.benefit {
+	background-color: #271c38;
+	padding: 3rem 0;
+
+	&-block {
+		text-align: center;
+	}
+	
+
+	&-title {
+		font-size: 4rem;
+		color: @light;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 5rem;
+
+	}
+
+	&-img {
+		display: inline-block;
+		background-color: #599eff;
+		padding: 5rem;
+		border-radius: 50%;
+		border: 6rem;
+	}
+
+	&-text {
+		font-size: 1.6rem;
+		color: @light;
+		margin: 3rem 3.4rem;
+	}
+}
+
+// Популярные игры
+.popgame {
+	padding: 4rem 0;
+	background-color: @yellow-color;
+	&-title {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 4rem;
+		margin-bottom: 4rem;
+	}
+
+	&-wrap {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	&-img {
+		max-width: 35rem;
 	}
 }
