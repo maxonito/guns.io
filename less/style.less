@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
 // Базовые цвета
 @text-color: #000;
 @light: #fff;
@@ -25,6 +25,12 @@ a {
 
 // Мои стили
 .top {
+	position: sticky;
+	top: 0;
+	background-color: @light;
+	opacity: 0.9;
+	z-index: 100;
+
 	&-nav {
 		list-style: none;
 		text-align: center;
@@ -45,18 +51,34 @@ a {
 	}
 }
 .main {
-	background: #fff url(../img/main/main-bg.jpg) 0 0 no-repeat;
+	background: #fff url(../img/main/main-bg.jpg) center top no-repeat;
 	background-size: cover;
-
+	
 	&-content {
 		text-align: center;
+
+		&-cost {
+			font-size: 4.4rem;
+			margin-bottom: 1.4rem;
+			.old {
+				color: @text-color;
+				text-decoration: line-through;
+				margin-right: 5rem;
+			}
+
+			.new {
+				color: lighten(@red-color, 5%);
+				font-weight: 900;
+			}
+		}
 		&-btn {
 			text-transform: uppercase;
 			font-size: 1.6rem;
 			font-weight: 700;
+			letter-spacing: 1.5px;
 			color: @light;
 			padding: 1.6rem 3.5rem;
-			background-color: @red-color;
+			background: linear-gradient(to bottom, lighten(@red-color,15%), @red-color);
 			border: none;
 			border-radius: 40px;
 			margin-bottom: 5rem;
@@ -66,15 +88,17 @@ a {
 			text-transform: uppercase;
 			line-height: 4rem;
 			font-weight: 300;
-			margin-bottom: 20rem;
+			margin-bottom: 25rem;
+			text-align: left;
 		}
 
 		&-title {
 			margin-top: 5rem;
-			font-size: 7rem;
+			font-size: 8rem;
 			font-weight: 300;
 			text-transform: uppercase;
-			margin-bottom: 3rem;
+			margin-bottom: 2rem;
+			text-align: left;
 		}
 	}
 
