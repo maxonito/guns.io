@@ -410,3 +410,152 @@ section {
   height: 2px;
   background-color: #ffa95e;
 }
+.delivery {
+  text-align: center;
+  background-color: #e2e2e2;
+}
+.delivery-cost {
+  border: 1px solid #000000;
+  margin: 3rem 3rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.delivery-cost img {
+  max-width: 25rem;
+  margin-bottom: 10rem;
+}
+.delivery-cost-text {
+  font-size: 3rem;
+  margin-top: 10rem;
+}
+.delivery-cost-text strong {
+  font-size: 4rem;
+}
+.delivery .nav-tabs {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-align: center;
+  position: relative;
+  top: 4px;
+}
+.delivery .tab-content {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.delivery .tab-content #adress {
+  padding: 2rem;
+}
+.delivery .tab-content #adress .adress-img {
+  max-width: 40rem;
+}
+.delivery .tab-content #adress .adress-title {
+  margin-top: 0;
+}
+.delivery .tab-content #adress .adress-text {
+  margin-top: 47%;
+  font-size: 1.4rem;
+}
+.delivery .tab-content #adress .adress-form {
+  text-align: left;
+  background-color: #f4f4f4;
+  padding: 3rem 2rem;
+  font-size: 1.6rem;
+  width: 100%;
+}
+.delivery .tab-content #adress .adress-form .button-blue {
+  position: absolute;
+  right: -100%;
+  bottom: 10rem;
+  padding: 2rem;
+  font-size: 2.4rem;
+  height: 10rem;
+  color: #ffffff;
+  border: none;
+  background-color: #0909c4;
+  border-radius: 10px;
+}
+.delivery .tab-content #adress .adress-form input {
+  margin-bottom: 1rem;
+  padding: 2rem;
+  padding-left: 1rem;
+  height: 3.6rem;
+  width: 100%;
+  border: 1px solid #007713;
+}
+.delivery .tab-content #pay {
+  padding: 2rem;
+  text-align: left;
+}
+.delivery .tab-content #pay .pay-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+.delivery .tab-content #pay .pay-img {
+  max-width: 37rem;
+}
+.delivery .tab-content #pay .pay-text {
+  font-size: 1.8rem;
+}
+.delivery-title {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+  font-weight: 700;
+}
+.delivery-subtitle {
+  font-weight: 700;
+}
+.delivery-text {
+  font-size: 1.8rem;
+}
+.delivery-text-tab {
+  font-size: 1.6rem;
+  padding: 3rem 1rem;
+  text-align: left;
+}
+.map-title {
+  text-align: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+.footer .number {
+  font-size: 2rem;
+}
+.footer .btn-grey {
+  background-color: #e0e0e0;
+}
+.footer-btn {
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  width: 17rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  background-color: #d587ff;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+.footer span {
+  font-size: 1.4rem;
+}
+.footer-name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.footer-social {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+}
+.footer-social img {
+  width: 3rem;
+}
+.footer .dark {
+  background-color: #403944;
+  padding: 2rem;
+}
+.footer .ur-inf {
+  color: #ffffff;
+}
