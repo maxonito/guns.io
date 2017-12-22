@@ -92,8 +92,6 @@ section {
 }
 .kid {
   padding-bottom: 4rem;
-  background: #ffffff url(../img/kid/pattern2.png) repeat;
-  background-color: grey;
 }
 .kid-block {
   text-align: center;
@@ -111,7 +109,7 @@ section {
 }
 .kid-sign {
   font-size: 1.8rem;
-  color: #ffffff;
+  color: #000000;
   margin: 3rem 0;
   padding: 0 4rem;
 }
@@ -129,9 +127,6 @@ section {
   text-align: center;
   margin: 5rem 0;
   font-weight: 400;
-}
-.argun-about {
-  margin-bottom: 5rem;
 }
 .argun-about-text {
   font-size: 1.8rem;
@@ -151,7 +146,6 @@ section {
   margin-top: 6rem;
 }
 .overview {
-  background-color: #3c619e;
   color: #ffffff;
   padding: 5rem 0;
 }
@@ -167,12 +161,14 @@ section {
   text-align: center;
   display: inline-block;
   font-size: 1.4rem;
+  color: #000000;
 }
 .overview-title {
   font-size: 4rem;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 5rem;
+  color: #000000;
 }
 .overview-video {
   display: table;
@@ -196,7 +192,6 @@ section {
   text-align: center;
 }
 .benefit {
-  background-color: #271c38;
   padding: 3rem 0;
 }
 .benefit-block {
@@ -204,7 +199,7 @@ section {
 }
 .benefit-title {
   font-size: 4rem;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 5rem;
@@ -218,7 +213,7 @@ section {
 }
 .benefit-text {
   font-size: 1.6rem;
-  color: #ffffff;
+  color: #000000;
   margin: 3rem 3.4rem;
 }
 .popgame {
@@ -275,8 +270,12 @@ section {
   font-size: 4rem;
   margin-bottom: 4rem;
 }
+.platforms .but {
+  margin-top: 7rem;
+  margin-left: 3rem;
+}
 .platforms-qr {
-  width: 30rem;
+  width: 18rem;
 }
 .platforms .apple img {
   margin-top: 8rem;
@@ -359,9 +358,6 @@ section {
   margin-top: 0;
   text-transform: uppercase;
 }
-.order {
-  background-color: #847d7d;
-}
 .order h2 {
   margin-bottom: 7rem;
 }
@@ -373,7 +369,7 @@ section {
   display: inline-block;
   margin: 0;
   font-size: 1.6rem;
-  color: #ffffff;
+  color: #000000;
   padding: 0;
   width: 22%;
 }
@@ -415,7 +411,6 @@ section {
 }
 .delivery {
   text-align: center;
-  background-color: #e2e2e2;
 }
 .delivery-cost {
   border: 1px solid #000000;
@@ -439,12 +434,13 @@ section {
   font-size: 1.6rem;
   text-align: center;
   position: relative;
-  top: 4px;
+  top: 6px;
 }
 .delivery .tab-content {
   position: relative;
   background-color: #ffffff;
   border-radius: 5px;
+  border: 1px ;
 }
 .delivery .tab-content #adress {
   padding: 2rem;
@@ -552,6 +548,7 @@ section {
   display: inline-block;
   margin-top: 1.5rem;
   margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 .footer-social img {
   width: 3rem;

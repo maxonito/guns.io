@@ -121,8 +121,6 @@ section {
 // Вы хотите чтобы ваш ребёнок
 .kid {
 	padding-bottom: 4rem;
-	background: #fff url(../img/kid/pattern2.png) repeat;
-	background-color: grey;
 	&-block {
 		text-align: center;
 	}
@@ -140,7 +138,7 @@ section {
 
 	&-sign {
 		font-size: 1.8rem;
-		color: @light;
+		color: @text-color;
 		margin: 3rem 0;
 		padding: 0 4rem;
 	}
@@ -174,7 +172,6 @@ section {
 
 // AR GUN GAME ЭТО ВИРТУАЛЬНОЕ ОРУЖИЕ КОТОРОЕ ПОЗВОЛИТ....
 .argun-about {
-	margin-bottom: 5rem;
 	&-text {
 		
 		font-size: 1.8rem;
@@ -202,7 +199,6 @@ section {
 
 // Обзор виртуального оружия
 .overview {
-	background-color: #3c619e;
 	color: @light;
 	padding: 5rem 0;
 
@@ -220,6 +216,7 @@ section {
 		text-align: center;
 		display: inline-block;
 		font-size: 1.4rem;
+		color: @text-color;
 	}
 
 	&-title {
@@ -227,6 +224,7 @@ section {
 		text-transform: uppercase;
 		text-align: center;
 		margin-bottom: 5rem;
+		color: @text-color;
 		
 	}
 
@@ -259,7 +257,6 @@ section {
 
 // Приемущества
 .benefit {
-	background-color: #271c38;
 	padding: 3rem 0;
 
 	&-block {
@@ -269,7 +266,7 @@ section {
 
 	&-title {
 		font-size: 4rem;
-		color: @light;
+		color: @text-color;
 		text-align: center;
 		text-transform: uppercase;
 		margin-bottom: 5rem;
@@ -286,7 +283,7 @@ section {
 
 	&-text {
 		font-size: 1.6rem;
-		color: @light;
+		color: @text-color;
 		margin: 3rem 3.4rem;
 	}
 }
@@ -357,8 +354,14 @@ section {
 		margin-bottom: 4rem;
 	}
 
+	.but {
+		margin-top: 7rem;
+		margin-left: 3rem;
+	}
+
 	&-qr {
-		width: 30rem;
+		
+		width: 18rem;
 	}
 
 	.apple img{
@@ -470,7 +473,7 @@ section {
 
 // Как заказать
 .order {
-	background-color: #847d7d;
+
 	h2 {
 		margin-bottom: 7rem;
 	}
@@ -484,7 +487,7 @@ section {
 			display: inline-block;
 			margin: 0;
 			font-size: 1.6rem;
-			color: @light;
+			color: @text-color;
 			padding: 0;
 			width: 22%;
 
@@ -535,7 +538,6 @@ section {
 // Доставка и оплата
 .delivery {
 	text-align: center;
-	background-color: #e2e2e2;
 
 	&-cost {
 		border: 1px solid @text-color;
@@ -563,13 +565,14 @@ section {
 		font-size: 1.6rem;
 		text-align: center;
 		position: relative;
-		top: 4px;
+		top: 6px;
 	}
 
 	.tab-content {
 		position: relative;
 		background-color: @light;
 		border-radius: 5px;	
+		border: 1px ;
 
 		#adress {
 			padding: 2rem;
@@ -713,6 +716,7 @@ section {
 		display: inline-block;
 		margin-top: 1.5rem;
 		margin-right: 2rem;
+		margin-bottom: 1rem;
 		img {
 			width: 3rem;
 		}
