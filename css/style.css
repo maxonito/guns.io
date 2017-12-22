@@ -6,6 +6,13 @@ body {
   font-size: 10px;
   font-family: 'Roboto', sans-serfif;
 }
+*,
+*:focus,
+*:link,
+*:hover,
+*:visited {
+  outline: none;
+}
 a:hover {
   text-decoration: none;
 }
