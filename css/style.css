@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+.left {
+  text-align: left;
+}
 body {
   font-size: 10px;
   font-family: 'Roboto', sans-serfif;
@@ -40,7 +43,7 @@ section {
   font-weight: bold;
 }
 .main {
-  background: #ffffff url(../img/main/main-bg.jpg) center top no-repeat;
+  background: #ffffff url(../img/main/main-bg.jpg) center no-repeat;
   background-size: cover;
 }
 .main-content {
@@ -129,7 +132,6 @@ section {
 }
 .argun-about {
   margin-bottom: 5rem;
-  margin-top: 8rem;
 }
 .argun-about-text {
   font-size: 1.8rem;
@@ -221,7 +223,6 @@ section {
 }
 .popgame {
   padding: 4rem 0;
-  background-color: #ffca1e;
 }
 .popgame-title {
   text-align: center;
@@ -237,7 +238,6 @@ section {
   max-width: 35rem;
 }
 .connect {
-  background-color: #9bc4ff;
   padding: 4rem 0;
 }
 .connect-title {
@@ -254,19 +254,19 @@ section {
   max-width: 33rem;
 }
 .connect-list {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
   margin-left: 7rem;
 }
 .connect-big-img {
   margin-top: 7rem;
-  width: 50rem;
+  width: 54rem;
 }
 .connect-small-img {
   margin-top: 5rem;
   height: 10rem;
 }
 .platforms {
-  background-color: #9bc4ff;
   padding: 4rem 0;
 }
 .platforms-title {
@@ -275,15 +275,18 @@ section {
   font-size: 4rem;
   margin-bottom: 4rem;
 }
+.platforms-qr {
+  width: 30rem;
+}
 .platforms .apple img {
-  margin-top: 10rem;
-  height: 11rem;
-  max-width: 30rem;
+  margin-top: 8rem;
+  height: 6rem;
+  max-width: 17rem;
   margin-bottom: 5rem;
 }
 .platforms .android img {
-  height: 11rem;
-  max-width: 30rem;
+  height: 6rem;
+  max-width: 17rem;
 }
 .garant-img {
   max-width: 13rem;
@@ -447,13 +450,14 @@ section {
   padding: 2rem;
 }
 .delivery .tab-content #adress .adress-img {
-  max-width: 40rem;
+  max-width: 53rem;
+  margin-top: 2rem;
 }
 .delivery .tab-content #adress .adress-title {
   margin-top: 0;
 }
 .delivery .tab-content #adress .adress-text {
-  margin-top: 47%;
+  margin-top: 23%;
   font-size: 1.4rem;
 }
 .delivery .tab-content #adress .adress-form {
@@ -466,7 +470,7 @@ section {
 .delivery .tab-content #adress .adress-form .button-blue {
   position: absolute;
   right: -100%;
-  bottom: 10rem;
+  bottom: 7rem;
   padding: 2rem;
   font-size: 2.4rem;
   height: 10rem;
