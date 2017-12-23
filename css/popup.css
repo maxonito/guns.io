@@ -1,0 +1,90 @@
+.modal-btn {
+  font-size: 2.4rem;
+  color: #fff;
+  width: 100%;
+  text-transform: uppercase;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.modal-dialog {
+  z-index:1000;
+}
+.modal .popup-body {
+  text-align: center;
+  padding: 2rem;
+}
+.modal .popup-body input {
+  height: 5rem;
+  width: 100%;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+.modal .popup-body-text {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+.modal .close-popup {
+  font-size: 4rem;
+  position: absolute;
+  top: -10rem;
+  right: -1rem;
+  border: none;
+  color: #d8d8d8;
+  font-weight: 400;
+  background-color: transparent;
+}
+.modal .wrap-btn {
+  position: relative;
+  top: ;
+}
+.modal .popup-header {
+  padding: 0;
+}
+.modal .popup-title-text {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1bb70c;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+.modal .popup-dialog {
+  margin-top: 10%;
+  width: 44rem;
+}
+@media (min-width: 1251px) {
+  .top-nav-item {
+    font-size: 2rem;
+  }
+  .top-nav li {
+    padding: 2rem;
+  }
+}
+@media (max-width: 1250px) {
+  .top-nav-item {
+    font-size: 1.6rem;
+  }
+  .top-nav li {
+    padding: 1.4rem;
+  }
+}
+@media (max-width: 1200px) {
+  .vr-img {
+    top: 40%;
+  }
+  .arrows {
+    top: 55%;
+  }
+}
+@media (max-width: 1080px) {
+  .top-nav-item {
+    font-size: 1.5rem;
+  }
+  .top-nav li {
+    padding: 1rem;
+  }
+}
