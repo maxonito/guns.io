@@ -608,9 +608,9 @@ section {
 }
 @media (max-width: 1080px) {
   .top-nav-item {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .top-nav li {
-    padding: 0.8rem;
+    padding: 0.7rem;
   }
 }
