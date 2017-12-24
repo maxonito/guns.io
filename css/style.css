@@ -553,6 +553,7 @@ section {
   padding: 0.8rem;
   width: 17rem;
   margin-bottom: 1rem;
+  margin-top: 2rem;
   color: #ffffff;
   background-color: #d587ff;
   border-radius: 5px;
@@ -581,6 +582,8 @@ section {
 }
 .footer .ur-inf {
   color: #ffffff;
+
+  line-height: 1.2rem;
 }
 
 @media (min-width: 1251px) {
