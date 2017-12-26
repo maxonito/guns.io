@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://webcanvas.ru/st/bags-market/low_inf.php?str=4 -->
+<html data-wf-page="58219a5a36d8bb8845fe0db2" data-wf-site="5783feea9776c8274889944f" class="w-mod-js w-mod-no-touch w-mod-video w-mod-no-ios wf-lato-n1-active wf-lato-i1-active wf-lato-n3-active wf-lato-i3-active wf-lato-n4-active wf-lato-i4-active wf-lato-n7-active wf-lato-i7-active wf-lato-n9-active wf-lato-i9-active wf-active" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Bags-Мarket | Конфиденциальность</title>
+  <meta content="Сумки, кошельки, сумки из Китая, реплики брендовых сумок. По доступным ценам!" name="description">
+  <meta content="Bags-Мarket  |  О нас" property="og:title">
+  <meta content="Сумки, кошельки, сумки из Китая, реплики брендовых сумок. По доступным ценам!" property="og:description">
+  <meta content="summary" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="./Bags-Мarket _ Конфиденциальность_files/normalize.css" rel="stylesheet" type="text/css">
+  <link href="./Bags-Мarket _ Конфиденциальность_files/webflow.css" rel="stylesheet" type="text/css">
+  <link href="./Bags-Мarket _ Конфиденциальность_files/bags-store.webflow.css" rel="stylesheet" type="text/css">
+  <script src="./Bags-Мarket _ Конфиденциальность_files/webfont.js.Без названия"></script>
+  <script type="text/javascript" src="./Bags-Мarket _ Конфиденциальность_files/jquery.js.Без названия"></script>
+  <script type="text/javascript" src="./Bags-Мarket _ Конфиденциальность_files/jquery.maskedinput-1.2.2.js.Без названия"></script>
+  <link rel="stylesheet" href="./Bags-Мarket _ Конфиденциальность_files/css"><script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
+      }
+    });
+  </script>
+  <script src="./Bags-Мarket _ Конфиденциальность_files/modernizr.js.Без названия" type="text/javascript"></script>
+  <link href="http://webcanvas.ru/st/bags-market/images/185103-3.png" rel="shortcut icon" type="image/x-icon">
+  <link href="http://webcanvas.ru/st/bags-market/images/185103-4.png" rel="apple-touch-icon">
+</head>
+<body class="body-glav">
+  <div class="menu-panel">
+    <div class="w-container">
+      <div class="hader-menu-block w-clearfix">
+        <a class="w-inline-block" href="http://webcanvas.ru/st/bags-market/index.php"><img class="logo-img" src="./Bags-Мarket _ Конфиденциальность_files/185103-2.png" width="30">
+        </a><a class="w-inline-block" href="http://webcanvas.ru/st/bags-market/index.php"><h3 class="logo-text">BagsMarket</h3></a>
+        <div class="form-input w-form">
+          <form data-name="Email Form" id="email-form" name="email-form">
+            <input class="input-finde w-input" data-name="Finde 2" id="finde-2" maxlength="256" name="finde-2" placeholder="Поиск" required="required" type="text" disabled="">
+          </form>
+        </div>
+		  
+
+             <div class="callbackblock"><img id="zkzhb-but" data-ix="showphoneblock" height="25" src="./Bags-Мarket _ Конфиденциальность_files/touchscreen.png">
+          <div id="zkzhb" class="phoneblock">
+            <!--div class="phoneromb"></div-->
+            <div class="numberphone">8 (987) 226-90-01</div>
+            <div>Впишите свой номер и мы вам перезвоним</div>
+            <div class="w-form">
+              <form class="formphoneblock" data-name="Email Form 2" id="email-form-2" name="email-form-2">
+			  <div id="nonum" style="display: none; color: #6a1717; margin-bottom: 10px;">Введите номер корректно!</div>
+			  <div id="otpravil" class="w-form-done">Спасибо! Мы перезвоним вам в течении 2 часов.</div>
+			  <div id="neotpravil" class="w-form-fail">Не удалось отправить номер. Попробуйте позже.</div>
+                <input name="callnum" class="inpphoneblock w-input" data-name="Обратный звонок на номер" id="phone1" maxlength="25" placeholder="+7 (___) ___-__-__" required="required" type="text">
+                <input id="cb" name="callback" class="butphoneblock w-button" data-wait="Идет отправка..." type="button" value="Отправить" onclick="return Formdata2(this.form)">
+              </form>
+				
+<script>
+function Formdata2(data2)
+{
+
+/* ВНИМАНИЕ! ВЫ МОЖЕТЕ ОБОЙТИ ВАЛИДАЦИЮ ФОРМЫ, НО ОТПРАВИВ НАМ НЕ ВЕРНЫЕ ДАННЫЕ ВЫ НЕ СМОЖЕТЕ ПОЛУЧИТЬ ОБРАТНЫЙ ЗВОНОК! */
+if (data2.callnum != null && data2.callnum.value.length < 10)
+{
+$('#nonum').show(300);
+setTimeout (function() {$('#nonum').hide(300)}, 2000);
+return false;}	
+ 
+ var nomerc=data2.callnum.value;
+ $.ajax ({
+ type: 'POST',
+ url: 'callback.php',
+ data: {numclient: nomerc},
+ dataType: 'html',
+ cache: false,
+ success: function(data) {           
+ if (data=='1') { 
+ $('#otpravil').show(); 
+ $('#phone1').hide();
+ $('#cb').hide();
+ } 
+ else {
+ $('#neotpravil').show(); 
+ $('#phone1').hide();
+ $('#cb').hide();
+ }
+ }
+ })
+				 			 
+}
+</script>
+              </div>
+            </div>
+          </div>
+        </div><img class="bascet-img man" height="25" src="./Bags-Мarket _ Конфиденциальность_files/1.png">
+      </div>
+    </div>
+
+<script>
+$('#zkzhb-but').click(function(){
+$('#zkzhb').toggle();
+});
+</script>
+<script type="text/javascript">
+jQuery(function($) {
+$.mask.definitions['~']='[+-]';
+$('#phone1').mask('+7 (999) 999-99-99');
+$('#phone2').mask('+7 (999) 999-99-99');
+});
+</script> 
+  <div class="section-content">
+    <div class="contall w-container">
+	<div class="konf">
+        <div class="had vibran">Конфиденциальность</div>
+        <p>Ваша конфиденциальность важна для нас!
+          <br> Личная информация, собранная при регистрации или оформлении заказ (или в любое другое время) преимущественно используется для подготовки Продуктов или Услуг в соответствии с Вашими потребностями.
+          <br>Ваша информация не будет передана или продана третьим сторонам. Однако возможно частичное раскрытие личной информации в особых случаях, описанных в «Согласии на предоставление персональных данных» Какие данные собираются на сайте/сайтах При добровольной регистрации на получение рассылки вы отправляете свои данные через форму регистрации.
+          <br>С какой целью собираются эти данные:
+          <br>Имя используется для обращения лично к вам, а ваш e-mail для отправки вам писем рассылок, новостей, полезных материалов, коммерческих предложений.
+          <br>Ваши имя и e-mail не передаются третьим лицам, ни при каких условиях кроме случаев, связанных с исполнением требований законодательства.
+          <br>Ваше имя и e-mail на защищенных серверах nic.ru или yandex.ru &nbsp;и используются в соответствии с его политикой конфиденциальности. Вы можете отказаться от получения писем рассылки и удалить из базы данных свои контактные данные в любой момент, кликнув на ссылку для отписки, присутствующую в каждом письме.
+          <br>Как эти данные используются:
+          <br> На наших сайтах используются куки (Cookies) и данные о посетителях сервиса Yandex Metrika. При помощи этих данных собирается информация о действиях посетителей на сайте с целью улучшения его содержания, улучшения функциональных возможностей сайта и, как следствие, создания качественного контента и сервисов для посетителей. Вы можете в любой момент изменить настройки своего браузера так, чтобы браузер блокировал все файлы cookie или оповещал об отправке этих файлов. Учтите при этом, что некоторые функции и Сервисы не смогут работать должным образом.
+          <br>Как эти данные защищаются в bags-market.ru:
+          <br>Для защиты Вашей личной информации используются разнообразные административные, управленческие и технические меры безопасности. &nbsp;придерживается &nbsp;различных международных стандартов контроля, направленных на операции с личной информацией, которые включают определенные меры контроля по защите информации, собранной в Интернет. Тем не менее, несмотря на то, что мы стремимся обезопасить Вашу личную информацию, Вы тоже должны принимать меры, чтобы защитить ее. Настоятельно рекомендуем Вам принимать все возможные меры предосторожности во время пребывания в Интернете. Организованные нами услуги и веб-сайты предусматривают меры по защите от утечки, несанкционированного использования и изменения информации, которую мы контролируем. &nbsp; &nbsp;
+          <br>Несмотря на то, что мы делаем все возможное, чтобы обеспечить целостность и безопасность своей сети и систем, мы не можем гарантировать, что наши меры безопасности предотвратят незаконный доступ к этой информации хакеров сторонних организаций. В случае изменения данной политики конфиденциальности вы сможете прочитать об этих изменениях на этой странице или, в особых случаях, получить уведомление на свой e-mail.
+          <br> Для связи с администратором сайта по любым вопросам вы можете написать письмо на e-mail: admin@bags-market.ru
+          <br>
+          <br> СОГЛАСИЕ С ПРЕДОСТАВЛЕНИЕМ ПЕРСОНАЛЬНЫХ ДАННЫХ
+          <br> Заполняя форму на нашем сайте — вы соглашаетесь с предоставлением персональных данных и с политикой конфиденциальности. Также вы соглашаетесь с тем, что разглашение ваших личных данных возможно в следующих случаях:
+          <br> 1) С Вашего согласия: Во всех остальных случаях перед передачей информации о Вас третьим сторонам необходимо Ваше явное согласие. Например, возможно реализовывать совместное предложение или конкурс с третьей стороной, тогда необходимо запросить ваше разрешение на совместное использование Вашей личной информации с третьей стороной.
+          <br> 2) Компаниям, работающим от лица: bags-market.ru, сотрудничает с другими компаниями, выполняющими от нашего лица функции бизнес поддержки, в связи с чем Ваша личная информация может быть частично раскрыта. Согласно условиям, такие компании могут использовать информацию только в целях предоставления услуг по договору. Им запрещается передавать данную информацию другим сторонам в ситуациях, отличных от случаев, когда это вызвано необходимостью предоставления оговоренных услуг. Примеры функций бизнес поддержки: выполнение заказов, реализация заявок, выдача призов и бонусов, проведение опросов среди клиентов и управление информационными системами. Также может быть раскрыта обобщённая не персонифицированная информация при выборе поставщиков услуг.
+          <br> 3) Дочерним и совместным предприятиям: Под дочерним или совместным предприятием понимается организация, не менее 50% долевого участия которой принадлежит влыдельцу bags-market.ru При передаче Вашей информации партнеру по дочернему или совместному предприятию существует требование не разглашать данную информацию другим сторонам в маркетинговых целях и не использовать Вашу информацию каким-либо путем, противоречащим Вашему выбору. Если Вы указали, что не хотите получать от нас акие-либо маркетинговые материалы, то мы не будем передавать Вашу информацию своим партнерам по дочерним и совместным предприятиям для маркетинговых целей.
+          <br> 4) На совместно позиционируемых или партнерских страницах: bags-market.ru может делиться информацией с компаниями-партнерами, вместе с которыми реализует специальные предложения и мероприятия по продвижению товара на совместно позиционируемых страницах своего сайта. При запросе анкетных данных на таких страницах Вы получите предупреждение о передаче информации. Партнер использует любую предоставленную Вами информацию согласно собственному уведомлению о конфиденциальности, с которым Вы можете ознакомиться перед предоставлением информации о себе.
+          <br> 5) При передаче контроля над предприятием: bags-market.ru оставляет за собой право передавать Ваши анкетные данные в связи с полной или частичной продажей или трансфертом своих активов и/или сервисов. При продаже или трансферте бизнеса мы предоставляем Вам возможность отказаться от передачи информации о себе. В некоторых случаях это может означать, что новая организация не сможет далее предоставлять Вам услуги или продукты, ранее предоставляемые нами.
+          <br> 6) Правоохранительным органам: bags-market.ru может без Вашего на то согласия раскрывать персональную информацию третьим сторонам по любой из следующих причин: во избежание нарушений закона, нормативных правовых актов или постановлений суда; участие в правительственных расследованиях; помощь в предотвращении мошенничества; а также укрепление или защита своих прав или прав своих дочерних предприятий. Вся личная информация, которая передана Вами для регистрации на наших сайтах или страницах, может быть в любой момент изменена либо полностью удалена из нашей базы по Вашему запросу. Для этого Вам необходимо связаться с нашим отделом технической поддержки admin@bags-market.ru
+          <br>Если Вы захотите отказаться от получения писем нашей регулярной рассылки, вы можете это сделать в любой момент с помощью специальной ссылки, которая размещается в конце каждого письма.
+          <br>ИП Хасанов Л.Р.</p>
+      </div>    </div>
+  </div>
+  <div class="footer-section">
+    <div class="w-container">
+      <div class="footer-iv w-clearfix">
+        <div class="text-foot"><a href="http://webcanvas.ru/st/bags-market/low_inf.php?str=1">О НАС</a> &nbsp; &nbsp; <a href="http://webcanvas.ru/st/bags-market/low_inf.php?str=2">ДОСТАВКА И ОПЛАТА &nbsp; &nbsp;</a><a href="http://webcanvas.ru/st/bags-market/low_inf.php?str=3">ДОГОВОР ОФЕРТЫ</a>&nbsp; &nbsp; <a href="http://webcanvas.ru/st/bags-market/low_inf.php?str=4">КОНФИДЕНЦИАЛЬНОСТЬ</a> &nbsp; &nbsp; <a href="http://webcanvas.ru/st/bags-market/low_inf.php?str=5">ВОЗВРАТ</a>
+        </div>
+        <div class="copiright">© 2016 Bags-Мarket</div>
+      </div>
+    </div>
+  </div>
+  <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script-->
+  <script src="./Bags-Мarket _ Конфиденциальность_files/webflow.js.Без названия" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+
+</body></html>

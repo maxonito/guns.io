@@ -5,6 +5,7 @@ $name = $_POST['name'];
 $otchestvo = $_POST['otchestvo'];
 $number = $_POST['number'];
 
+$street = $_POST['street'];
 $index = $_POST['index'];
 $region = $_POST['region'];
 $city = $_POST['city'];
@@ -49,6 +50,7 @@ $mail->Body    = '
 	Индекс:  '.$index.' <br>
 	Регион:  '.$region.' <br>
 	Населенный пункт:  '.$city.' <br>
+	Улица, проспект:  '.$street.' <br>
 	Район\мк-район:  '.$distr.' <br>
 	Дом/корпус/строение:  '.$home.' <br>
 	Квартира:  '.$kvart.' <br>';
